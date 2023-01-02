@@ -1,0 +1,104 @@
+.body-main {
+    display:block;
+    text-align: center;
+    border: 4px dotted darkviolet;
+    align-items: center;
+    background: linear-gradient(rgb(0, 255, 76),rgb(245, 10, 49));
+   
+}
+#h1-logo {
+    background-size: cover;
+}
+#p-description {
+   
+    margin: 3px;
+}
+#f-img{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url("images/pune.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    width: fit-content;
+    height: 150px;
+    border: 5px solid red;
+    
+    height:auto;
+}
+p {
+    color:black;
+}
+
+.subele {
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    justify-content:center;
+    justify-content: space-around;
+    
+}
+
+#s-film-img {
+    background-image: url("images/Filmtheator.png");
+    border: 3px solid red;
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    background-size: cover ;
+    margin: 0 auto ;
+}
+#t-film-img {
+    background-image: url("images/park1.jpg");
+    border: 3px solid red;
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    background-size: cover ;
+    margin: 0 auto ;
+}
+
+#f-film-img {
+    background-image: url("images/sport.jpg");
+    border: 3px solid red;
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    background-size: cover ;
+    margin: 0 auto ;
+}
+
+#ftr {
+    display:flex;
+    color: purple;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 20px;
+    background-size: cover;
+}
+
+#card {
+    display: flex;
+    flex-direction:column;
+    
+    justify-content: center;
+   /* border: 5px solid yellow;*/
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+    
+
+}
+
+#Sandeshphoto{
+    background-image: url("images/Sandesh.jpg") ;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 0px auto;
+
+}
